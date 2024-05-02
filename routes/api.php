@@ -24,7 +24,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/clientes', [ClienteController::class, 'index']);
 
 Route::get('/pedidos', [PedidoController::class, 'index']);
-//Route::get('/clientes', [ClienteController::class, 'index']);
+
 
 
 
